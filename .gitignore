@@ -1,1 +1,76 @@
 .idea
+
+# Compiled object files
+*.o
+*.ko
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Static Libraries
+*.a
+*.lib
+
+# Executables
+/*
+!/README.md
+
+# If you build in the project directories, ignore common binary names
+/*.exe
+/*.out
+
+# Build directories
+build/
+bin/
+lib/
+Debug/
+Release/
+
+# CMake
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/Testing/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CodeBlocks
+*.depend
+*.layout
+
+# Qt Creator
+*.pro.user*
+
+# CLion
+.idea/
+cmake-build-debug/
+
+# macOS
+.DS_Store
+
+# Backup files
+*~
+# Editor swap files
+*.swp
+
+# Logs
+*.log
+
+# Node/npm (if ever used)
+node_modules/
+
+# Dist files
+dist/
+.vscode

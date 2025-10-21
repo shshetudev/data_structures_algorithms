@@ -1,4 +1,4 @@
-# data_structures_algorithms
+# Data Strucutres and Algorithms
 
 ## Essentials C and C++ concepts
 
